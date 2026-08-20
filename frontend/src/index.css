@@ -1,0 +1,52 @@
+:root {
+  font-family: Inter, "Noto Sans JP", "Yu Gothic", system-ui, sans-serif;
+  color: #24332d;
+  background: #f5f2ea;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --ink: #24332d;
+  --muted: #68756f;
+  --paper: #fffdf8;
+  --line: #dcd8cc;
+  --green: #285b49;
+  --green-soft: #e2eee7;
+  --orange: #d76a3d;
+  --red: #a43b37;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top right, rgba(215, 106, 61, 0.1), transparent 28rem),
+    #f5f2ea;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: wait;
+}
+
+:focus-visible {
+  outline: 3px solid rgba(215, 106, 61, 0.45);
+  outline-offset: 2px;
+}
